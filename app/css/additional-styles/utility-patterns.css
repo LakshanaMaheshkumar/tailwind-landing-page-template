@@ -57,3 +57,5 @@ input[type="search"]::-webkit-search-results-decoration {
 .form-radio {
   @apply rounded-sm text-gray-800;
 }
+
+

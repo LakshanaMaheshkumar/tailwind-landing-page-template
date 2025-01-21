@@ -19,7 +19,7 @@ const NewsLatterBox = ({ initialTheme = "light" }) => {
         backgroundColor: currentTheme === "light" ? "#FFFFFF" : "#000000",
         boxShadow:
           currentTheme === "light"
-            ? "0 4px 6px rgba(0, 0, 0, 0.1)"
+            ? "0 4px 6px rgba(207, 21, 21, 0.1)"
             : "0 4px 6px rgba(255, 255, 255, 0.1)",
         padding: "24px", // Padding for internal spacing
       }}

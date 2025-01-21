@@ -7,8 +7,8 @@ import Hero from "@/components/hero-home";
 import BusinessCategories from "@/components/business-categories";
 import FeaturesPlanet from "@/components/features-planet";
 import LargeTestimonial from "@/components/large-testimonial";
-import Cta from "@/components/cta";
 import Contact from "@/components/Contact";
+import { Quotation } from "@/components/quotation";
 
 export default function Home() {
   return (
@@ -17,8 +17,8 @@ export default function Home() {
       <BusinessCategories />
       <FeaturesPlanet />
       <LargeTestimonial />
-      <Cta />
-      <Contact/>
+      <Quotation />
+      <Contact />
     </>
   );
 }
